@@ -16,11 +16,11 @@
 
 
 # FIFo first in first out
-# (first)1->2->3->(last)
+# (first)1<-2<-3<-(last)
 # insert(enqueue) 4
-# (first)1->2->3->4->(last)
+# (first)1<-2<-3<-4<-(last)
 # dequeue will 1(first in first out) 
-# (first)2->3->4->(last)
+# (first)2<-3<-4(last)
 
 
 
